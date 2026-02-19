@@ -18,7 +18,7 @@ from rbms.classes import RBM
 
 
 class IGRBM(RBM):
-    """Ising-Gaussian RBM with fixed hidden variance = 1/Nv, \pm 1 visibles, without any bias"""
+    """Ising-Gaussian RBM with fixed hidden variance = 1/Nv,  +1 / -1 visibles, without any bias"""
 
     def __init__(
         self,
